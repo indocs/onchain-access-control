@@ -1,0 +1,26 @@
+{
+  "name": "onchain-access-control",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A verifiable on-chain permission framework with role-based access control for smart contracts.",
+  "scripts": {
+    "format": "prettier --write '**/*.{ts,sol,md,json}'",
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "chai": "^4.3.4",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.20.0",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1",
+    "dotenv": "^16.0.3",
+    "@types/chai": "^4.3.5",
+    "@types/node": "^20.6.0"
+  },
+  "dependencies": {
+    "ethers": "^5.7.0"
+  }
+}
